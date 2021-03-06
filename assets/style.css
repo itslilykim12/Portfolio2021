@@ -6,8 +6,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
   }
 
   body {
@@ -25,7 +23,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-image: url("../images/web-design-background.png");
+    background-image: url("../images/hero-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -35,7 +33,7 @@ header {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
@@ -73,8 +71,7 @@ header {
   /* HEADER / NAVBAR STYLES END */
 
  /* About Me Style Starts*/
- .intro p {
-    line-height: 1.8;
+ .about-me p {
     color: var(--tertiary-color);
     display: flex;
     flex-direction: column;
@@ -83,6 +80,11 @@ header {
     font-size: 25px;
 
   }
+
+  .About-Me img {
+      max-height: 200px;
+  }
+  
 /*About Me Style Ends*/
 
 section {
@@ -97,7 +99,8 @@ section {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 100%;
+    padding: 100px;
   }
 
   .section-title {
