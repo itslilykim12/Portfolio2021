@@ -170,7 +170,7 @@ header {
       height: 300px;
 
   }
-  .flex-item1 h3 {
+  .flex-item1 h3, .flex-item2 h3, .flex-item3 h3, .flex-item4 h3 {
       color: blueviolet;
       background-color: blanchedalmond;
       display: flex;
@@ -196,16 +196,6 @@ header {
     height: 300px;
   }
 
-  .flex-item2 h3 {
-    color: blueviolet;
-    background-color: blanchedalmond;
-    display: flex;
-    text-align: center;
-    border: 3px solid black;
-    padding: 15px;
-    border-radius: 10px;
-  }
-
   .flex-item3 {
     background-image: url('../images/run-buddy.jpg');
     background-size: cover;
@@ -220,17 +210,6 @@ header {
     font-weight: bold;
     padding: 40px 0;
     height: 300px;
-  }
-
-  .flex-item3 h3{
-    color: blueviolet;
-    background-color: blanchedalmond;
-    display: flex;
-    text-align: center;
-    border: 3px solid black;
-    padding: 15px;
-    border-radius: 10px;
-
   }
 
   .flex-item4 {
@@ -249,27 +228,16 @@ header {
     height: 300px;
   }
 
-  .flex-item4 h3{
-    color: blueviolet;
-    background-color: blanchedalmond;
-    display: flex;
-    text-align: center;
-    border: 3px solid black;
-    padding: 15px;
-    border-radius: 10px;
-  }
-
 /*Contact Me Style Starts*/
   .contact-me h2 {
     color: var(--primary-color);
-  }
-  
-  .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
   }
-  
+
   .contact-info > * {
     flex: 1;
     margin: 15px;
@@ -281,6 +249,11 @@ header {
   
   .contact-info div {
     color: white;
+  }
+
+  .contact-info h3 {
+    color: var(--tertiary-color);
+    font-size: 15px;
   }
   
   .contact-info address {
@@ -301,3 +274,74 @@ header {
   .flex-row {
     display: flex;
   }
+
+  /* FOOTER STYLES START */
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  footer h2 {
+    color: var(--tertiary-color);
+    font-size: 30px;
+    margin: 0;
+  }
+  
+ /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2 {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .hero, .hero-form {
+      width: 100%;
+    }
+ 
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+  }
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .hero-form {
+      width: 100%;
+    }
+  
+    .section-title {
+      width: 95%;
+    }
+
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+}
+    
