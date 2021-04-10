@@ -170,7 +170,7 @@ header {
       height: 300px;
 
   }
-  .flex-item1 h3, .flex-item2 h3, .flex-item3 h3, .flex-item4 h3 {
+  .flex-item1 h3, .flex-item2 h3, .flex-item3 h3, .flex-item4 h3, .flex-item5 h3 {
       color: blueviolet;
       background-color: blanchedalmond;
       display: flex;
