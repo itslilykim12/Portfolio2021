@@ -46,7 +46,7 @@ header {
   
   header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
   }
   
   header nav {
@@ -98,7 +98,7 @@ header {
 /*Hero Style Starts*/
 
 .hero {
-    background-image: url('../images/hero-rx.jpg');
+    background-image: url('../images/hero-background.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -170,16 +170,6 @@ header {
       height: 300px;
 
   }
-  .flex-item1 , .flex-item2 , .flex-item3 , .flex-item4 , .flex-item5 {
-      color: black;
-      background-color: blanchedalmond;
-      display: flex;
-      text-align: center;
-      border: 3px solid black;
-      padding: 15px;
-      border-radius: 10px;
-  }
-
   .flex-item2 {
     background-image: url('../images/Sickkids\ VS.png');
     background-size: cover;
@@ -292,7 +282,7 @@ header {
 
   /* FOOTER STYLES START */
 footer {
-    background: var(--primary-color);
+    background-color: lightblue;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
