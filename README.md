@@ -1,3 +1,4 @@
+
 # Portfolio 2021 
 
 # Purpose 
@@ -8,7 +9,7 @@ HTML and CSS such as adding visual enhancements, media queries, and flexboxes
 using https://www.w3schools.com/ for references, in html and css formats and styles. 
 
 # Sample Images
-![Porfolio](https://user-images.githubusercontent.com/78708872/114290018-46bd4a80-9a4a-11eb-9250-52d135c12dfb.PNG)
+![sample pic](https://user-images.githubusercontent.com/78708872/120942787-2384e380-c6f9-11eb-8c9f-4b9c8dc92996.PNG)
 
 
 # Website 
